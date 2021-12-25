@@ -1,0 +1,114 @@
+.payment {
+    padding: 10px 20px;
+    background-color: #fff;
+    input[type=text], select, textarea{
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        resize: vertical;
+      }
+      input[type=number]{
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        resize: vertical;
+      }
+      
+      /* Style the label to display next to the inputs */
+      label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
+    .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      
+      .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+        font-size: small;
+      }
+      
+      .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .discount-price{
+        padding-top: 10px;
+        display: grid;
+        grid-template-columns: 65% 35%;
+        input{
+          padding: 10px;
+        }
+        .btn-discount{
+          text-transform: uppercase;
+          background-color: #ff5e00;
+        }
+        .btn-discount:hover{
+          color: black;
+        }
+      }
+      /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .col-25, .col-75, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+        }
+      }
+    .cost {
+        display: flex;
+        justify-content: space-between;
+        p {
+            color: #999;
+        }
+    }
+    .total {
+        .number {
+            color: red;
+        }
+        p {
+            color: #000;
+        }
+    }
+    .button {
+        margin-top: 20px;
+        height: 46px;
+        button {
+            text-transform: uppercase;
+            background-color: #ff5e00;
+        }
+        button:hover{
+          color: black;
+        }
+    }
+    
+    .Modal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        .body {
+            max-height: 520px;
+            overflow: scroll;
+            width: 700px;
+            outline: none;
+            border: 1px solid #000;
+            background-color: #fff;
+        }
+    }
+}

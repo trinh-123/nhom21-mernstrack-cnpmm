@@ -1,0 +1,22 @@
+.comment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    img {
+        padding: 5px;
+        border-radius: 50%;
+        background-color: blue;
+        margin-right: 20px;
+    }
+    .info {
+        flex-grow: 1;
+        span {
+            color: #9e9c9c;
+            font-size: 13px;
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
+}

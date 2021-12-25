@@ -1,0 +1,64 @@
+.shop-store {
+    background-color: #f4f4f4;
+    padding: 0 15px;
+    .action-with-shop{
+        display: flex;
+        justify-content: space-between;
+        .action-chat span{
+            display: block;
+            font-size: 16px;
+        }
+        .action-follow span{
+            display: block;
+            font-size: 16px;
+            color: #ff5e00;
+        }
+    }
+    .nav-item{
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        place-content: flex-start;
+        flex-shrink: 0;
+        height: 50px;
+        align-items: center;
+        .button{
+            margin-top: 10px;
+            button {
+                text-transform: uppercase;
+                background-color: #ff5e00;
+                width: 190px;
+            }
+            button:hover{
+            color: black;
+            }
+        }
+        .button2{
+            margin-top: 10px;
+            margin-left: 20px;
+            button {
+                text-transform: uppercase;
+                background-color: #ff5e00;
+                width: 190px;
+            }
+            button:hover{
+            color: black;
+            }
+        }
+    }
+}
+.Modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .body {
+        max-height: 520px;
+        overflow: scroll;
+        width: 700px;
+        outline: none;
+        border: 1px solid #000;
+        background-color: #fff;
+    }
+}

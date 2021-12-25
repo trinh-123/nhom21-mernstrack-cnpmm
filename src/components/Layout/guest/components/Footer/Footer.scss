@@ -1,0 +1,13 @@
+.footer {
+    .nav-list {
+        margin-left: 50px;
+        display: flex;
+
+        .item {
+            margin-left: 20px;
+            color: #fff;
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+    }
+}

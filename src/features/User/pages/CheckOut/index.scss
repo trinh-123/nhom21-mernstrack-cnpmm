@@ -1,0 +1,49 @@
+.CheckOut{
+    padding-top: 50px;
+    .CheckBoxMain {
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        .radio {
+            margin-bottom: 0;
+            text-transform: capitalize;
+        }
+        .CheckBoxMain img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        .leftCheckBox{
+            width: 200px;
+        }
+        .rightCheckBox{
+            padding-left: 30px;
+            width: 230px;
+        }
+    }
+    .GenerateContent{
+        width: 430px;
+        .button{
+            margin-top: 10px;
+            button {
+                text-transform: uppercase;
+                background-color: #ff5e00;
+            }
+            button:hover{
+            color: black;
+            }
+        }
+        .button2{
+            margin-top: 10px;
+            button {
+                text-transform: uppercase;
+                background-color: #ff5e00;
+                width: 194.14px;
+            }
+            button:hover{
+            color: black;
+            }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+.new-product {
+    padding-left: 200px;
+    padding-right: 200px;
+    h3 {
+        text-align: center;
+        font-family: 'Langar', cursive;
+        margin-bottom: 0.5em;
+        color: #000;
+    }
+    .list-newProduct{
+        padding-top: 20px;
+    }
+}
+.ser-t {
+    text-align: center;
+    margin: 0 auto;
+    width: 20%;
+    position: relative;
+}
+.ser-t b{
+    width: 100%;
+    height: 2px;
+    display: block;
+    background: #000;
+    margin-bottom: 3px;
+}
+.ser-t b.line{
+    width: 80%;
+    margin:0 auto;
+}
+.ser-t  span{
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: #fff;
+    position: absolute;
+    top: -7px;
+    left: 42%;  
+}
+.ser-t  span i{
+    width: 20px;height: 20px;
+    display: block;
+    border: 2px solid #000;
+    -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
+    -moz-transform: rotate(45deg) translate3d(0, 0, 0);
+    -ms-transform: rotate(45deg) translate3d(0, 0, 0);
+    -o-transform: rotate(45deg) translate3d(0, 0, 0);
+    transform: rotate(45deg) translate3d(0, 0, 0);
+    margin-left: 0.7em;
+}
+.spec-product {
+    padding-left: 200px;
+    padding-right: 200px;
+    h3 {
+        padding-top: 20px;
+        text-align: center;
+        font-family: 'Langar', cursive;
+        margin-bottom: 0.5em;
+        color: #000;
+    }
+    .list-specProduct{
+        padding-top: 20px;
+    }
+}
+.logo{
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    .logo .seria {
+        margin-top: 10px;
+    }
+}
+.aHeaad {
+    margin-top: 50px;
+}

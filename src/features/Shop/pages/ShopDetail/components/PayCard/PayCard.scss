@@ -1,0 +1,40 @@
+.PayCard {
+    .content {
+        padding-bottom: 15px !important;
+        .priceLabel {
+            font-size: 24px;
+            line-height: 24px;
+        }
+        .wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            p {
+                margin-bottom: 0;
+            }
+            .actionQuantity {
+                display: flex;
+                .btn_cal:hover {
+                    cursor: pointer;
+                    color: #ff5e00;
+                }
+                .quantity {
+                    text-align: center;
+                    border: 1px dashed #35c7bb;
+                    width: 50px;
+                    margin: 0 5px;
+                }
+            }
+        }
+        .action {
+            margin: 20px 0;
+        }
+        .cartd {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+    }
+}

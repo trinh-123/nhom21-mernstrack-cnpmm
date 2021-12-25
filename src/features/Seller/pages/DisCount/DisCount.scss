@@ -1,0 +1,99 @@
+.payment {
+    padding: 10px 20px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    input[type=text], select, textarea{
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        resize: vertical;
+      }
+      input[type=number]{
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        resize: vertical;
+      }
+      
+      /* Style the label to display next to the inputs */
+      label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
+    .container {
+        margin-top: 40px;
+        border-radius: 5px;
+        padding: 20px;
+      }
+      
+      .col-25 {
+        float: left;
+        margin-top: 6px;
+        width: 80%;
+      }
+      .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .col-25, .col-75, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+        }
+      }
+    .cost {
+        display: flex;
+        justify-content: space-between;
+        p {
+            color: #999;
+        }
+    }
+    .total {
+        .number {
+            color: red;
+        }
+        p {
+            color: #000;
+        }
+    }
+    .button {
+        height: 46px;
+        width: 80%;
+        button {
+            text-transform: uppercase;
+            background-color: rgb(1, 87, 155);
+        }
+        button:hover{
+          color: black;
+        }
+    }
+    
+    .Modal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        .body {
+            max-height: 520px;
+            overflow: scroll;
+            width: 700px;
+            outline: none;
+            border: 1px solid #000;
+            background-color: #fff;
+        }
+    }
+}

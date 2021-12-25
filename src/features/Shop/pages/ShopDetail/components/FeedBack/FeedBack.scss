@@ -1,0 +1,15 @@
+.review-store {
+    padding: 20px 30px;
+    background-color: #fff;
+    ul {
+        list-style: none;
+        
+    }
+    ul li{
+        display: flex;
+        padding-top: 5px;
+    }
+    .count{
+        padding-left: 20px;
+    }
+}

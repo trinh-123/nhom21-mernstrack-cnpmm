@@ -1,0 +1,19 @@
+.content{
+    padding-top: 30px;
+}
+.notification{
+    padding-left: 20px;
+}
+.avatar-store {
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    .avatar {
+        border-radius: 10px;
+        width: 70%;
+        margin-bottom: 10px;
+    }
+    a{
+        padding-left: 10px;
+    }
+}

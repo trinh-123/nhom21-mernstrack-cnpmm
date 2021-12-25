@@ -1,0 +1,23 @@
+.login-form {
+    .extra {
+        display: flex;
+        .item {
+            margin-right: 10px;
+            margin-top: 20px;
+        }
+    }
+    .err-wrapper{
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+        color: red;
+        .err-msg{
+            margin-left: 5px;
+        }
+    }
+    .btnFacebook{
+        height: 45px;
+        color: #FFF;
+        background-color: #3B5998;
+    }
+}

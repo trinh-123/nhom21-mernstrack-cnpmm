@@ -1,0 +1,19 @@
+.hoverimage img{
+    -webkit-transform:scale(0.8); /*Webkit: Thu nhỏ kích thước ảnh còn 0.8 so với ảnh gốc*/
+    -moz-transform:scale(0.8); /*Thu nhỏ đối với Mozilla*/
+    -o-transform:scale(0.8); /*Thu nhỏ đối với Opera*/
+    -webkit-transition-duration: 0.5s; /*Webkit: Thời gian phóng to, nhỏ ảnh*/
+    -moz-transition-duration: 0.5s; /*Như trên*/
+    -o-transition-duration: 0.5s; /*Như trên*/
+    opacity: 0.7; /*Độ mờ của hình ảnh*/
+    margin: 0 10px 5px 0; /*căn đều giữa ảnh*/
+    }
+    .hoverimage img:hover{
+    -webkit-transform:scale(1.1); /*Webkit: Tăng kích cỡ ảnh lên 1.1 lần*/
+    -moz-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    box-shadow:0px 0px 30px gray; /*Đổ bóng bằng CSS3*/
+    -webkit-box-shadow:0px 0px 30px gray;
+    -moz-box-shadow:0px 0px 30px gray;
+    opacity: 1; /*Độ mờ của hình ảnh*/
+    }

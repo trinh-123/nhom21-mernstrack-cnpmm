@@ -1,0 +1,40 @@
+.header {
+    .nav-list {
+        display: flex;
+        font-size: small;
+        .item {
+            margin-left: 100px;
+            text-decoration: none;
+            text-transform: capitalize;
+            position: relative;
+            display: inline-block;
+        }
+        .item--active {
+            border-bottom: 3px solid #0a0a0a;
+            transition: border-bottom .5s ease-in-out;
+           
+        }
+        .item .icon:hover{
+            color:#0a0a0a;
+        }
+        .item .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: rgb(250, 246, 246);
+            color: rgb(10, 10, 10);
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            
+            /* Position the tooltip */
+            position: absolute;
+            z-index: 1;
+            top: 100%;
+            left: 50%;
+            margin-left: -60px;
+          }
+        .item:hover .tooltiptext {
+            visibility: visible;
+        }
+    }
+}

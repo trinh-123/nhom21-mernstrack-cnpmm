@@ -1,0 +1,28 @@
+.main{
+    padding: 0px 80px;
+    .content-img{
+        text-align: center;
+    }
+    .content-img h1{
+        padding-top: 20px;
+        font-size: 50px;
+        font-weight: bolder;
+        color: #072fb3;
+        text-transform: uppercase;
+    }
+    .content-img img{
+        padding-top: 20px;
+    }
+    .content-detail {
+        padding-top: 20px;
+    }
+    .content-detail h3{
+        font-size: 16px;
+    }
+    .content-detail p{
+        font-weight: bolder;
+    }
+    .content-detail a {
+        font-size: 16px !important;
+    }
+}
